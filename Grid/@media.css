@@ -9,11 +9,16 @@
       ;
     max-width: 650px;
     max-height: 95vh;
-  }
+}
 
   .content__subscription {
     border-radius: 0px 0px 0px 0px;
   }
+
+  .footer {
+     display: none;
+  }
+
 }
 
 @media (max-width: 668px) {

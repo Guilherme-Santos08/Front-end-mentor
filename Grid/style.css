@@ -42,6 +42,10 @@ body {
   background-color: hsl(179, 62%, 48%);
 }
 
+.footer {
+  grid-area: footer;
+}
+
 /* ------ Community ------*/
 .content__community {
   padding: 50px 30px;
