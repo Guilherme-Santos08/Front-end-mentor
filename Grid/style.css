@@ -7,8 +7,23 @@
 body {
    font-size: 16px;
    font-family: "Karla", sans-serif;
+   
    height: 100vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background-color: hsl(204, 43%, 93%);
 }
+
+/* .estrutura {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} */
+
 
 .content {
    display: grid;
@@ -17,20 +32,43 @@ body {
    "community community"
    "subscription why"
    ;
-
-   justify-items: center;
-   align-items: center;
- 
+   width: 750px;
 }
 
 .content__community{
    grid-area: community;
+   background-color: white;
+   padding: 50px 30px;
+
+   border-radius: 5px 5px 0px 0px;
+}
+
+.content__community--h1 {
+   font-size: 2rem;
+   color: hsl(179, 62%, 43%);
+}
+
+.content__community--h2 {
+   font-size: 1.5rem;
+   color: hsl(71, 73%, 54%);
+   margin-top: 20px;
+}
+
+.content__community p {
+   font-size: 1.2rem;
+   line-height: 1.5;
+   color: hsl(218, 22%, 67%);
+   width: 650px;
+
+   margin-top: 15px;
 }
 
 .content__subscription{
    grid-area: subscription;
+   background-color: hsl(179, 62%, 43%);
 }
 
 .content__why {
    grid-area: why;
+   background-color: hsl(179, 62%, 48%);
 }
