@@ -27,7 +27,7 @@ body {
 
 .content {
    display: grid;
-   grid-template-columns: minmax(1fr) 1fr;
+   grid-template-columns: 1fr 1fr;
    grid-template-areas: 
    "community community"
    "subscription why"
@@ -115,9 +115,9 @@ body {
    font-size: 1rem;
    font-weight: bold;
 
-   width: 100%;
+   width: 90%;
    margin-top: 30px;
-   padding: 12px 0px;
+   padding: 15px 0px;
 
    color: white;
    background-color: hsl(71, 73%, 54%);
@@ -126,4 +126,24 @@ body {
    cursor: pointer;
    outline: none;
    border: none;
+}
+
+/* ------ Why ------ */
+.content__why {
+   padding: 40px;
+   border-radius: 0px 0px 5px 0px;
+}
+
+.content__why--h1 {
+   font-size: 1.3rem;
+   
+   color: white;
+}
+
+.content__why--p {
+   font-size: 1rem;
+   display: block;
+   color: hsl(204, 43%, 93%);
+   margin-top: 15px;
+
 }
