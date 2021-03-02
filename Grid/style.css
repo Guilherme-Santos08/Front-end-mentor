@@ -27,7 +27,7 @@ body {
 
 .content {
    display: grid;
-   grid-template-columns: 400px 1fr;
+   grid-template-columns: minmax(1fr) 1fr;
    grid-template-areas: 
    "community community"
    "subscription why"
@@ -71,4 +71,59 @@ body {
 .content__why {
    grid-area: why;
    background-color: hsl(179, 62%, 48%);
+}
+
+/* ------ Subscription ------ */
+.content__subscription {
+   padding: 40px;
+   border-radius: 0px 0px 0px 5px;
+}
+
+.content__subscription--h1 {
+   color: white;
+   font-size: 1.3rem;
+}
+
+.content__subscription--p {
+   font-size: 2rem;
+   font-weight: bold;
+
+   color: white;
+
+   display: flex;
+   align-items: center;
+
+   margin-top: 15px;
+}
+
+.content__subscription--p span {
+   font-size: 1.1rem;
+   font-weight: normal;
+
+   color: hsl(179, 56%, 65%);
+   margin-left: 15px;
+}
+
+.content__subscription--p2{
+   font-size: 1.1rem;
+   color: white;
+
+   margin-top: 6px;
+}
+
+.content__subscription--button {
+   font-size: 1rem;
+   font-weight: bold;
+
+   width: 100%;
+   margin-top: 30px;
+   padding: 12px 0px;
+
+   color: white;
+   background-color: hsl(71, 73%, 54%);
+   border-radius: 5px;
+
+   cursor: pointer;
+   outline: none;
+   border: none;
 }
