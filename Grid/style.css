@@ -17,14 +17,6 @@ body {
    background-color: hsl(204, 43%, 93%);
 }
 
-/* .estrutura {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-} */
-
-
 .content {
    display: grid;
    grid-template-columns: 1fr 1fr;

@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+   .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "community"
+      "subscription"
+      "why"
+      ;
+    max-width: 650px;
+    max-height: 95vh;
+  }
+
+  .content__subscription {
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 668px) {
+   .content {
+      max-width: 345px;
+   }
+   .content__community p{
+      width: 290px;
+   }
+}
+
+
+@media (max-width: 375px) {
+   .content {
+      max-width: 345px;
+   }
+   .content__community p{
+      width: 230px;
+   }
+}
