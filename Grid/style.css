@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-size: 16px;
+   font-family: "Karla", sans-serif;
+   height: 100vh;
+}
+
+.content {
+   display: grid;
+   grid-template-columns: 400px 1fr;
+   grid-template-areas: 
+   "community community"
+   "subscription why"
+   ;
+
+   justify-items: center;
+   align-items: center;
+ 
+}
+
+.content__community{
+   grid-area: community;
+}
+
+.content__subscription{
+   grid-area: subscription;
+}
+
+.content__why {
+   grid-area: why;
+}
