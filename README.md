@@ -18,7 +18,9 @@ Este projeto vai usar as seguinte tecnologias
 
 ## Amostra dos Desafios
 
-2 - Single-price-grid-component
+### Single-price-grid-component
+
+[Você pode visitar o site aqui](https://single-price-grid-component-responsive.vercel.app/)
 
 
 <p align="">
