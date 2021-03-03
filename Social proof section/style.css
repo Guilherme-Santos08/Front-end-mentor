@@ -53,6 +53,26 @@ body {
    line-height: 1.5;
 }
 
+/* ------ Stars ------ */
+.hero__stars-p {
+   font-size: 1rem;
+   font-weight: 500;
+
+   color: hsl(300, 43%, 22%);
+   background-color: hsl(300, 24%, 96%);
+   margin-bottom: 10px;
+
+   width: 350px;
+   padding: 8px 0;
+
+   text-align: center;
+   border-radius: 5px;
+}
+
+.hero__stars-p:last-child {
+   margin-bottom: 0px;
+}
+
 
 /* ------ Card ------ */
 .card {
