@@ -48,7 +48,7 @@ body {
 
 /* ------ Community ------*/
 .content__community {
-  padding: 50px 30px;
+  padding: 30px;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -74,7 +74,7 @@ body {
 
 /* ------ Subscription ------ */
 .content__subscription {
-  padding: 40px;
+  padding: 30px;
   border-radius: 0px 0px 0px 5px;
 }
 
@@ -136,7 +136,7 @@ body {
 
 /* ------ Why ------ */
 .content__why {
-  padding: 40px;
+  padding: 30px;
   border-radius: 0px 0px 5px 0px;
 }
 
