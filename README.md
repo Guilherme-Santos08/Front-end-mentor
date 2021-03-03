@@ -21,6 +21,6 @@ Este projeto vai usar as seguinte tecnologias
 2 - Single-price-grid-component
 
 
-<p align="center">
-  <img alt="dev.finances" src="https://imgur.com/XEhSjbG" width="100%">
+<p align="">
+  <img alt="" src="https://i.imgur.com/XEhSjbG.png" width="50%">
 </p>
