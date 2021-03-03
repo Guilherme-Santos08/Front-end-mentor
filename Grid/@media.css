@@ -8,7 +8,7 @@
       "why"
       ;
     max-width: 650px;
-    max-height: 95vh;
+    max-height: 100vh;
 }
 
   .content__subscription {
@@ -27,6 +27,14 @@
    }
    .content__community p{
       width: 290px;
+   }
+
+   .content__community--h1 {
+      font-size: 1.6rem;
+   }
+
+   .content__community--h2 {
+      font-size: 1.1rem;
    }
 }
 
