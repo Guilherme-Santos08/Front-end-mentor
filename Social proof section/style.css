@@ -19,10 +19,37 @@ body {
 }
 
 .container {
-   min-width: 200px;
-   padding: 50px 0px;
+   max-width: 1250px;
+   padding: 90px 90px;
 
    border-radius: 5px;
    background-color: hsl(0, 0%, 100%);
    box-shadow: 3px 4px 14px -1px rgba(219,219,219,1);
+}
+/* ------ hero ------ */
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   /* padding: 0 15px; */
+}
+
+.hero__text--h1 {
+   font-size: 1.6rem;
+   font-weight: bold;
+
+   max-width: 13.1rem;
+   color: hsl(300, 43%, 22%);
+}
+
+.hero__text--p {
+   font-size: 0.8rem;
+   width: 550px;
+}
+
+
+/* ------ Card ------ */
+.card {
+   margin-top: 50px;
 }
