@@ -36,16 +36,21 @@ body {
 }
 
 .hero__text--h1 {
-   font-size: 1.6rem;
+   font-size: 2.6rem;
    font-weight: bold;
 
-   max-width: 13.1rem;
+   max-width: 22rem;
    color: hsl(300, 43%, 22%);
 }
 
 .hero__text--p {
    font-size: 0.8rem;
-   width: 550px;
+   max-width: 383px;
+
+   color: hsl(303, 10%, 53%);
+
+   margin-top: 5px;
+   line-height: 1.5;
 }
 
 
