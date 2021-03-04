@@ -27,15 +27,34 @@ body {
 .container {
    background-color: var(--White);
    padding: 80px 4.5rem;
+
+   width: 90vw;
 }
 
+/* ------ Users ------ */
 .users {
    display: flex;
 }
 
+/* ------ Users__header ------ */
 .users__header--h1 {
    font-size: 2.6rem;
-   font-weight: 500;
+   font-weight: bold;
+
+   color: var(--primary-Dark-Magenta);
 
    width: 291px;
+}
+
+.users__header--p {
+   font-size: 1rem;
+   width: 422px;
+   color: var(--Dark-Grayish-Magenta);
+}
+/* ------ users__feedback ------*/
+.users__feedback {
+   display: flex;
+   flex-direction: column;
+
+   margin-right: auto;
 }
