@@ -32,6 +32,20 @@ body {
    position: relative;
 }
 
+.image-top {
+   position: absolute;
+   top: 0;
+
+   z-index: 0;
+}
+
+.image-bottom {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+   z-index: 1;
+}
 /* ------ Users ------ */
 .users {
    display: flex;
