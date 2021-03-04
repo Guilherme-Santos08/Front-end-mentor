@@ -14,3 +14,28 @@
    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
    --White: hsl(0, 0%, 100%);
 }
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 100vh;
+   background-color: rgb(236, 236, 236);
+}
+
+.container {
+   background-color: var(--White);
+   padding: 80px 4.5rem;
+}
+
+.users {
+   display: flex;
+}
+
+.users__header--h1 {
+   font-size: 2.6rem;
+   font-weight: 500;
+
+   width: 291px;
+}
