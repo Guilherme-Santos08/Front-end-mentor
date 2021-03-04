@@ -54,23 +54,17 @@ body {
 }
 
 /* ------ Stars ------ */
-.hero__stars-p {
-   font-size: 1rem;
-   font-weight: 500;
-
-   color: hsl(300, 43%, 22%);
-   background-color: hsl(300, 24%, 96%);
-   margin-bottom: 10px;
-
-   width: 350px;
-   padding: 8px 0;
-
-   text-align: center;
-   border-radius: 5px;
+.stars--edit {
+   display: flex;
+   align-items: center;
 }
 
-.hero__stars-p:last-child {
-   margin-bottom: 0px;
+.image-stars {
+   margin-right: 10px;
+}
+
+.stars--edit span {
+   font-size: 0.9rem;
 }
 
 
