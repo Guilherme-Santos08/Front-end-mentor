@@ -69,8 +69,12 @@ body {
    border-radius: 8px;
 }
 
-.start__image img {
-   font-size: 0.1rem;
+.star__image {
+   word-spacing: 0.2rem;
+   margin-right: 1rem;
+}
+.star__image img {
+   width: 0.8rem;
 }
 
 .star1 {
