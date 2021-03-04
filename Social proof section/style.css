@@ -129,8 +129,47 @@ body {
 
 .cards {
    /* min-width: 100%; */
-   margin-right: 15px;
-   padding: 35px;
+   margin: 45px 25px 0px 0px;
+   padding: 45px;
+
    background-color: var(--primary-Dark-Magenta);
    border-radius: 8px;
+}
+
+.cards:last-child{
+   margin-right: 0px;
+}
+
+.cards__name {
+   display: flex;
+   align-items: center;
+}
+
+.cards__name img {
+   width: 40px;
+   border-radius: 50%;
+}
+
+.cards__name p {
+   font-size: 0.8rem;
+   font-weight: bold;
+   line-height: 1.6;
+
+   width: 108px;
+   margin-left: 22px;
+
+   color: var(--White);
+}
+
+.cards__name p span {
+   font-size: 0.8rem;
+   font-weight: 500;
+   color: var(--primary-Soft-Pink);
+}
+
+.cards p {
+   font-size: 0.9rem;
+   line-height: 1.8;
+
+   color: var(--White);
 }
