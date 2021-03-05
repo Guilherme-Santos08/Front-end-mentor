@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+   .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "community"
+      "subscription"
+      "why"
+      ;
+    max-width: 650px;
+    max-height: 100vh;
+}
+
+  .content__subscription {
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .footer {
+     display: none;
+  }
+
+}
+
+@media (max-width: 668px) {
+   .content {
+      max-width: 345px;
+   }
+   .content__community p{
+      width: 290px;
+   }
+
+   .content__community--h1 {
+      font-size: 1.6rem;
+   }
+
+   .content__community--h2 {
+      font-size: 1.1rem;
+   }
+}
+
+
+@media (max-width: 375px) {
+   .content {
+      max-width: 345px;
+   }
+   .content__community p{
+      width: 230px;
+   }
+}
