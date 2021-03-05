@@ -178,3 +178,16 @@ body {
 .cards3 {
    margin-top: 100px;
 }
+
+
+@media (max-width: 375){
+   body{
+      background-color: black;
+   }
+   
+   
+   .container {
+      width: 20px;
+      
+   }
+}
