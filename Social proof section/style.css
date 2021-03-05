@@ -181,50 +181,13 @@ body {
 
 
 @media (max-width: 375px) {   
-   .container {
-      height: 100vh;
-      width: 100vw;
-
-      padding: 50px 21px;
+   body {
+      height: auto;
+      width: auto;
+      padding: 0;
    }
-
-   .users{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      text-align: center;
-   }
-
-   .users__header{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-   }
-
-   .users__header--h1 {
-      font-size: 1.5rem;
-      width: 250px;
-
-   }
-
-   .users__header--p {
-      font-size: 0.9rem;
-
-      margin-top: 18px;
-      width: 100%;
-   }
-
-   .users__feedback {
-      display: block;
-   }
-
-
+   
+   /* ------ Container ------ */
 
    
-   .people {
-      display: flex;
-      flex-direction: column;
-   }
 }
