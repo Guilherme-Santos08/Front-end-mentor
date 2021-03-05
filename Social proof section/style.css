@@ -180,14 +180,32 @@ body {
 }
 
 
-@media (max-width: 375){
-   body{
-      background-color: black;
-   }
-   
-   
+@media (max-width: 375px) {   
    .container {
-      width: 20px;
-      
+      height: 100vh;
+      width: 100vw;
+   }
+
+   .users{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .users__header{
+   }
+
+   .users__header--h1 {
+      font-size: 1rem;
+      width: 150px;
+
+   }
+
+   .users__feedback {
+      display: block;
+   }
+   .people {
+      display: flex;
+      flex-direction: column;
    }
 }
