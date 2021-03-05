@@ -22,6 +22,7 @@ body {
 
 .container {
    height: 100vh;
+   background: var(--Very-Light-Gray);
 
    padding: 4.25rem 8.75rem;
 }
@@ -57,3 +58,55 @@ body {
 }
 
 /* ------ Section ------ */
+
+.section {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   max-width: 1120px;
+}
+
+ .card__text {
+   background-color: white;
+   max-width: 23.688rem;
+   margin: 30px;
+   padding: 30px;
+}
+
+.card__text--p {
+   font-size: 0.9rem;
+   color: var(--Grayish-Blue);
+   margin-top: 1rem;
+}
+
+.image {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 25px;
+}
+
+.image img {
+   max-width: 3.5rem;
+}
+
+/*
+.card__team-builder {
+   display: flex;
+   justify-content: center;
+
+}
+
+.card__supervisor {
+   
+}
+
+.card__karma {
+   display: flex;
+   justify-content: center;
+}
+
+.card__calculator {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+} */
