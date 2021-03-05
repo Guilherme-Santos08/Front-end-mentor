@@ -29,7 +29,7 @@ body {
    background-color: var(--White);
    /* max-width: 1050px; */
 
-   padding: 100px 145px;
+   padding: 80px 110px;
 }
 
 /* ------ Users ------ */
@@ -51,7 +51,8 @@ body {
    font-size: 0.9rem;
    line-height: 1.6;
 
-   margin-top: 5px;
+   margin-top: 8px;
+
    width: 431px;
    color: var(--Dark-Grayish-Magenta);
 }
@@ -113,4 +114,67 @@ body {
 /* ------ People ------ */
 .people {
    display: flex;
+   align-items: center;
+
+   margin-top: 35px;
+}
+
+.cards {
+   padding: 27px 35px;
+
+   border-radius: 8px;
+   margin-right: 20px;
+
+   background-color: var(--primary-Very-Dark-Magenta);
+}
+
+.cards:last-child {
+   margin-right: 0px;
+}
+
+.cards__name {
+   display: flex;
+   align-items: center;
+}
+.cards__name img {
+   width: 40px;
+   border-radius: 50%;
+   display: flex;
+
+   margin-right: 28px;
+}
+
+.cards__name--p {
+   font-size: 0.8rem;
+   font-weight: bold;
+   line-height: 0.5;
+   
+   width: 108px;
+   color: var(--White);
+
+   margin-bottom: 15px;
+}
+
+.cards__name--p span {
+   font-size: 0.8rem;
+   font-weight: bold;
+
+   color: var(--primary-Soft-Pink);
+}
+
+.cards p {
+   margin-top: 15px;
+
+   font-size: 0.8rem;
+   font-weight: 500;
+   line-height: 2;
+
+   color: var(--White);
+}
+
+.cards2 {
+   margin-top: 50px;
+}
+.cards3 {
+   margin-top: 100px;
 }
