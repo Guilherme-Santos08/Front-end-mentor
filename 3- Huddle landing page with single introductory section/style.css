@@ -6,3 +6,8 @@
    font-size: 16px;
    font-family: "Poppins", sans-serif;
 }
+
+:root{
+   --primary-Violet: hsl(257, 40%, 49%);
+   --primary-Soft-Magenta: hsl(300, 69%, 71%);
+}
