@@ -11,3 +11,11 @@
    --primary-Violet: hsl(257, 40%, 49%);
    --primary-Soft-Magenta: hsl(300, 69%, 71%);
 }
+
+body {
+   background-color: var(--primary-Violet);
+   background-image: url(images/bg-desktop.svg);
+   background-size: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
