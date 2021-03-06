@@ -20,6 +20,7 @@ body {
    height: 100vh;
 }
 
+/* ------ Header ------ */
 .header {
    padding: 2.813rem 4.063rem;
 }
@@ -27,3 +28,40 @@ body {
 .header img {
    max-width: 13.125rem;
 }
+
+/* ------ Container ------ */
+.container {
+   display: flex;
+   padding: 2.5rem 4.063rem;
+}
+
+.desc {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   max-width: 28.75rem;
+
+   margin-left: 45px;
+   margin-top: 45px;
+}
+
+.desc__h1 {
+   font-size: 2.5rem;
+   font-weight: bold;
+
+   color: white;
+
+   /* max-width: 27.438rem; */
+}
+
+.desc__p {
+   font-size: 1rem;
+   font-family: "Open Sans",sans-serif;
+   line-height: 1.7;
+
+   margin-top: 1.563rem;
+   
+   color: white;
+}
+
