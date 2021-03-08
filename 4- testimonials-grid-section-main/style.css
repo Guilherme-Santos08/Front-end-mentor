@@ -6,3 +6,13 @@
    font-size: 16px;
    font-family: "Barlow Semi Condensed", sans-serif;
 }
+
+:root {
+   --primary-Moderate-violet: hsl(263, 55%, 52%);
+   --primary-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+   -primary-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+   --primary-White: hsl(0, 0%, 100%);
+
+   --neutral-Light-gray: hsl(0, 0%, 81%);
+   --neutral-Light-grayish-blue: hsl(210, 46%, 95%)
+}
