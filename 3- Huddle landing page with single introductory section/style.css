@@ -182,4 +182,26 @@ body {
       width: 100%;
       padding: 8px;
    }
+
+   /* ------ Redes ------ */
+   .redes-sociais {
+      margin-top: 30px;
+   }
+
+   .social-fields {
+      border-radius: 50px;
+      
+      width: 2.2rem;
+      
+      text-align: center;
+      cursor: pointer;   
+   }
+   
+   .social-field {
+      padding: 6px;
+   }
+   
+   .social-fields a{
+      font-size: 0.9rem;
+   }
 }
