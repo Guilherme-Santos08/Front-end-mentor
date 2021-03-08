@@ -32,7 +32,7 @@ body {
 /* ------ Container ------ */
 .container {
    display: flex;
-   padding: 2.5rem 4.063rem;
+   margin: 2.5rem 4.063rem;
 }
 
 .desc {
@@ -88,4 +88,17 @@ body {
 .desc__btn:hover {
    color: white;
    background-color: var(--primary-Soft-Magenta);
+}
+
+/* ------ Redes ------ */
+.redes-sociais {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+   margin-right: 95px;
+}
+
+.redes-sociais a > i{
+   width: 50px;
 }
