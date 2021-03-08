@@ -92,13 +92,27 @@ body {
 
 /* ------ Redes ------ */
 .redes-sociais {
+   position: absolute;
    display: flex;
-   justify-content: flex-end;
    align-items: center;
-
-   margin-right: 95px;
+   right: 95px;
 }
 
-.redes-sociais a > i{
-   width: 50px;
+.social-fields {
+   border: 1px solid white;
+   border-radius: 0;
+   margin-right: 15px;
+}
+
+.teste {
+   padding: 50px;
+}
+
+.social-field:last-child {
+   margin-right: 0;
+}
+
+.social-fields a{
+   color: white;
+   font-size: 18px;
 }
