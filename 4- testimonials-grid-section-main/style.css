@@ -14,5 +14,14 @@
    --primary-White: hsl(0, 0%, 100%);
 
    --neutral-Light-gray: hsl(0, 0%, 81%);
-   --neutral-Light-grayish-blue: hsl(210, 46%, 95%)
+   --neutral-Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background-color: var(--neutral-Light-grayish-blue);
+   height: 100vh;
 }
