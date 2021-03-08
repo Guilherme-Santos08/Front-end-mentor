@@ -29,7 +29,7 @@ body {
 .container {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-gap: 15px;
+   grid-gap: 25px;
    grid-template-areas: 
    "box1 box1 box2 box5"
    "box3 box4 box4 box5"
@@ -81,4 +81,32 @@ body {
 
    border: 2px solid hsl(263, 41%, 63%);
    border-radius: 50%;
+}
+
+.box1__span {
+   font-size: 0.9rem;
+
+   color: var(--primary-White);
+   max-width: 110px;
+}
+
+.box1__span span {
+   font-size: 0.8rem;
+   color: #A775F1;
+}
+
+.box1__desc1 {
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: var(--primary-White);
+
+   max-width: 30.563rem;
+   margin-top: 0.875rem;
+}
+
+.box1__desc2{
+   font-size: 0.9rem;
+   color: hsl(263, 54%, 68%);
+
+   margin-top: 1.125rem;
 }
