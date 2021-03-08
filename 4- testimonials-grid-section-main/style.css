@@ -40,31 +40,35 @@ body {
 
 .box1 {
    grid-area: box1;
+   padding: 1.769rem;
 }
 
 .box2 {
    grid-area: box2;
+   padding: 1.769rem;
 }
 
 .box3 {
    grid-area: box3;
+   padding: 1.769rem;
 }
 
 .box4{
    grid-area: box4;
+   padding: 1.769rem;
 }
 
 .box5 {
    grid-area: box5;
+   padding: 1.769rem;
 }
 
 /* ------ Box1 ------ */
 
 .box1 {
-   padding: 1.875rem;
    background-image: url(images/bg-pattern-quotation.svg);
    background-repeat: no-repeat;
-   background-position: right 70px top ;
+   background-position: right 102px top ;
    border-radius: 8px;
    background-color: var(--primary-Moderate-violet);
 }
@@ -107,6 +111,13 @@ body {
 .box1__desc2{
    font-size: 0.9rem;
    color: hsl(263, 54%, 68%);
+   /* max-width: 900px */
 
    margin-top: 1.125rem;
+}
+
+/* ------ Box2 ------ */
+
+.box2 {
+   background-color: var(--primary-Very-dark-grayish-blue);
 }
