@@ -100,19 +100,38 @@ body {
 
 .social-fields {
    border: 1px solid white;
-   border-radius: 0;
-   margin-right: 15px;
-}
+   border-radius: 50px;
+   
+   width: 2.5rem;
+   
+   margin-right: 0.938rem;
+   text-align: center;
+   cursor: pointer;
 
-.teste {
-   padding: 50px;
+   transition: .1s ease-in-out;
 }
 
 .social-field:last-child {
    margin-right: 0;
 }
 
+.social-field {
+   padding: 8px;
+}
+
 .social-fields a{
    color: white;
-   font-size: 18px;
+   font-size: 1.125rem;
+   max-width: 100%;
+
+   outline: none;
+   text-decoration: none;
+}
+
+.social-fields:hover{
+   border: 1px solid var(--primary-Soft-Magenta);
+
+}
+.social-field a:hover {
+   color: var(--primary-Soft-Magenta);
 }
