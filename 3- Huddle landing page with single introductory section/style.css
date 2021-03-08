@@ -161,4 +161,25 @@ body {
    .image img {
       max-width: 305px;
    }
+
+   /* ------ Desc ------ */
+   .desc {
+      margin-top: 130px;
+      margin: 50px 0 0 0;
+   }
+   
+   .desc__h1 {
+      font-size: 1.5rem;
+      text-align: center;
+   }
+   
+   .desc__p {
+      text-align: center;
+   }
+
+   .desc__btn{
+      align-self: center;
+      width: 100%;
+      padding: 8px;
+   }
 }
