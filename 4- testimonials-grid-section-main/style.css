@@ -57,3 +57,28 @@ body {
 .box5 {
    grid-area: box5;
 }
+
+/* ------ Box1 ------ */
+
+.box1 {
+   padding: 1.875rem;
+   background-image: url(images/bg-pattern-quotation.svg);
+   background-repeat: no-repeat;
+   background-position: right 70px top ;
+   border-radius: 8px;
+   background-color: var(--primary-Moderate-violet);
+}
+
+.box1__name {
+   display: flex;
+   align-items: center;
+}
+
+.box1__name img {
+   max-width: 32px;
+   
+   margin-right: 0.938rem;
+
+   border: 2px solid hsl(263, 41%, 63%);
+   border-radius: 50%;
+}
