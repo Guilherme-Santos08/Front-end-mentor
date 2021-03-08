@@ -18,6 +18,7 @@ body {
    background-size: center;
    background-repeat: no-repeat;
    height: 100vh;
+   
 }
 
 /* ------ Header ------ */
@@ -134,4 +135,30 @@ body {
 }
 .social-field a:hover {
    color: var(--primary-Soft-Magenta);
+}
+
+@media (max-width: 375px) {
+   body {
+      background-image: url(images/bg-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: center;
+   }
+
+   .header{
+      padding: 30px;
+   }
+   
+   .header img {
+      max-width: 130px;
+   }
+   /* ------ Container ------ */
+   .container {
+      display: block;
+      padding: 0;
+      margin: 20px 35px;
+   }
+
+   .image img {
+      max-width: 305px;
+   }
 }
