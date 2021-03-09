@@ -41,26 +41,45 @@ body {
 .box1 {
    grid-area: box1;
    padding: 1.769rem;
+   border-radius: 8px;
 }
 
 .box2 {
    grid-area: box2;
    padding: 1.769rem;
+   border-radius: 8px;
 }
 
 .box3 {
    grid-area: box3;
    padding: 1.769rem;
+   border-radius: 8px;
 }
 
 .box4{
    grid-area: box4;
    padding: 1.769rem;
+   border-radius: 8px;
 }
 
 .box5 {
    grid-area: box5;
    padding: 1.769rem;
+   border-radius: 8px;
+}
+
+/* ------ Global ------ */
+.global__name {
+   display: flex;
+   align-items: center;
+}
+
+.global__name img {
+   max-width: 32px;
+   
+   margin-right: 0.938rem;
+
+   border-radius: 50%;
 }
 
 /* ------ Box1 ------ */
@@ -69,22 +88,12 @@ body {
    background-image: url(images/bg-pattern-quotation.svg);
    background-repeat: no-repeat;
    background-position: right 102px top ;
-   border-radius: 8px;
+   
    background-color: var(--primary-Moderate-violet);
 }
 
-.box1__name {
-   display: flex;
-   align-items: center;
-}
-
 .box1__name img {
-   max-width: 32px;
-   
-   margin-right: 0.938rem;
-
    border: 2px solid hsl(263, 41%, 63%);
-   border-radius: 50%;
 }
 
 .box1__span {
