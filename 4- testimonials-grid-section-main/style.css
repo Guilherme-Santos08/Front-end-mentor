@@ -156,3 +156,35 @@ body {
 
    margin-top: 1.125rem;
 }
+
+/* ------ Box3 ------ */
+.box3 {
+   background-color: var(--primary-White);
+}
+
+.box3__span {
+   font-size: 0.8rem;
+   max-width: 88px;
+
+   color: var(--primary-Very-dark-grayish-blue);
+}
+.box3__span span {
+   font-size: 0.8rem;
+   color: var(--neutral-Light-gray);
+}
+
+.box3__desc1 {
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: var(--primary-Very-dark-grayish-blue);
+
+   margin-top: 0.875rem;
+   max-width: 10.563rem;
+}
+
+.box3__desc2{
+   font-size: 0.9rem;
+   color: var(--neutral-Light-gray);
+
+   margin-top: 1.125rem;
+}
