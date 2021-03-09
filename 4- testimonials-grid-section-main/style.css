@@ -253,5 +253,6 @@ body {
    font-size: 0.9rem;
    color: hsl(0, 0%, 67%);
 
+   max-width: 12.5rem;
    margin-top: 1.125rem;
 }
