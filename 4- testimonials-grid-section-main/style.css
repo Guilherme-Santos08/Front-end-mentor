@@ -194,6 +194,10 @@ body {
    background-color: var(--primary-Very-dark-blackish-blue);
 }
 
+.box4__name img {
+   border: 2px solid hsl(263, 41%, 63%);
+}
+
 .box4__span {
    font-size: 0.8rem;
    max-width: 88px;
