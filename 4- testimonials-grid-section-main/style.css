@@ -184,7 +184,7 @@ body {
 
 .box3__desc2{
    font-size: 0.9rem;
-   color: var(--neutral-Light-gray);
+   color: hsl(0, 0%, 67%);
 
    margin-top: 1.125rem;
 }
@@ -221,6 +221,37 @@ body {
 .box4__desc2{
    font-size: 0.9rem;
    color: var(--neutral-Light-gray);
+
+   margin-top: 1.125rem;
+}
+
+/* ------ Box5 ------ */
+.box5 {
+   background-color: var(--primary-White);
+}
+
+.box5__span {
+   font-size: 0.8rem;
+   max-width: 88px;
+
+   color: var(--primary-Very-dark-grayish-blue);
+}
+.box5__span span {
+   font-size: 0.8rem;
+   color: var(--neutral-Light-gray);
+}
+
+.box5__desc1 {
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: var(--primary-Very-dark-grayish-blue);
+
+   margin-top: 0.875rem;
+}
+
+.box5__desc2{
+   font-size: 0.9rem;
+   color: hsl(0, 0%, 67%);
 
    margin-top: 1.125rem;
 }
