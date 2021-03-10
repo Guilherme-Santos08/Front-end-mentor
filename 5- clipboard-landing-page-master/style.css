@@ -19,3 +19,12 @@ body {
    background-image: url(images/bg-header-desktop.png);
    background-repeat: no-repeat;
 }
+
+.header {
+   text-align: center;
+   margin: 125px;
+}
+
+.text__downloads img {
+   max-width: 115px;
+}
