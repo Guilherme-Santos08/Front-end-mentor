@@ -24,6 +24,7 @@ body {
    margin: 0 15px;
 }
 
+
 /* ------ Header ------*/
 .header {
    display: flex;
@@ -31,7 +32,7 @@ body {
    justify-content: center;
 
    text-align: center;
-   margin: 7.938rem 7.938rem 10rem;
+   margin: 7.938rem 0 11.25rem;
 }
 
 .text__downloads img {
@@ -113,4 +114,35 @@ body {
 
    max-width: 670px;
    margin-top: 0.938rem;
+}
+
+/* ------ info__list ------ */
+.info__list {
+   display: flex;
+   
+   margin-top: 85px;
+}
+
+.info__list img {
+   width: 50%;
+}
+
+.list__text {
+   margin-bottom: 50px;
+   margin: 60px 0 0 6.875rem;
+}
+
+.list__text--h3 {
+   font-size: 1.4rem;
+   color: var(--neutral-Dark-Grayish-Blue);
+}
+
+.list__text--p {
+   font-size: 1rem;
+   line-height: 1.8;
+
+   margin-top: 5px;
+   max-width: 334px;
+
+   color: var(--neutral-Grayish-Blue);
 }
