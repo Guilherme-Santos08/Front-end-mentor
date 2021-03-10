@@ -31,7 +31,7 @@ body {
    justify-content: center;
 
    text-align: center;
-   margin: 7.938rem 0;
+   margin: 7.938rem 7.938rem 10rem;
 }
 
 .text__downloads img {
@@ -42,33 +42,33 @@ body {
    margin-top: 3.125rem;
 }
 .desc h1{
-   font-size: 2.4rem;
+   font-size: 2.7rem;
    color: var(--neutral-Dark-Grayish-Blue);
 }
 .desc p {
-   font-size: 1.1rem;
-   line-height: 1.5;
+   font-size: 1.2rem;
+   line-height: 1.6;
    color: var(--neutral-Grayish-Blue);
 
-   max-width: 651px;
+   max-width: 700px;
    margin-top: 0.938rem;
 }
 
 /* ------ Header__Button ------*/
 .button__downloads {
-   margin-top: 3.25rem;
+   margin-top: 3.625rem;
 }
 
 .btn__download {
-   font-size: 1rem;
+   font-size: 1.1rem;
    font-weight: 600;
    color: white;
    text-decoration: none;
    
    border-radius: 50px;
 
-   padding: 16px 32px;
-   margin-right: 27px;
+   padding: 16px 34px;
+   margin-right: 20px;
 
    opacity: 1;
    transition: all .2s ease-in-out;
@@ -88,4 +88,29 @@ body {
 .btn2 {
    background-color: var(--primary-Light-Blue);
    border-bottom: 3px solid 	#5767e4;
+}
+
+/* ------ info ------ */
+.info {
+}
+
+.info__text {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.info__text--h2 {
+   font-size: 2.2rem;
+   color: var(--neutral-Dark-Grayish-Blue);
+}
+
+.info__text--p {
+   font-size: 1.1rem;
+   line-height: 1.6;
+   color: var(--neutral-Grayish-Blue);
+
+   max-width: 670px;
+   margin-top: 0.938rem;
 }
