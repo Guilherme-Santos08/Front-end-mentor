@@ -4,6 +4,14 @@
    box-sizing: border-box;
 }
 
+:root {
+   --primary-Strong-Cyan: hsl(171, 66%, 44%);
+   --primary-Light-Blue: hsl(233, 100%, 69%);
+
+   --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+   --neutral-Grayish-Blue: hsl(201, 11%, 66%);
+}
+
 body {
    font-size: 16px;
    font-family: "Bai Jamjuree", sans-serif;
