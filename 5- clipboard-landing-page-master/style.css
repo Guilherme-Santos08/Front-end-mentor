@@ -20,11 +20,72 @@ body {
    background-repeat: no-repeat;
 }
 
+.main {
+   margin: 0 15px;
+}
+
+/* ------ Header ------*/
 .header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
    text-align: center;
-   margin: 125px;
+   margin: 7.938rem 0;
 }
 
 .text__downloads img {
    max-width: 115px;
+}
+
+.desc {
+   margin-top: 3.125rem;
+}
+.desc h1{
+   font-size: 2.4rem;
+   color: var(--neutral-Dark-Grayish-Blue);
+}
+.desc p {
+   font-size: 1.1rem;
+   line-height: 1.5;
+   color: var(--neutral-Grayish-Blue);
+
+   max-width: 651px;
+   margin-top: 0.938rem;
+}
+
+/* ------ Header__Button ------*/
+.button__downloads {
+   margin-top: 3.25rem;
+}
+
+.btn__download {
+   font-size: 1rem;
+   font-weight: 600;
+   color: white;
+   text-decoration: none;
+   
+   border-radius: 50px;
+
+   padding: 16px 32px;
+   margin-right: 27px;
+
+   opacity: 1;
+   transition: all .2s ease-in-out;
+}
+.btn__download:last-child{
+   margin-right: 0;
+}
+.btn__download:hover {
+   opacity: .8;
+}
+
+.btn1 {
+   background-color: var(--primary-Strong-Cyan);
+   border-bottom: 3px solid rgba(26, 124, 109, 0.31);
+}
+
+.btn2 {
+   background-color: var(--primary-Light-Blue);
+   border-bottom: 3px solid 	#5767e4;
 }
