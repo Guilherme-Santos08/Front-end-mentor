@@ -117,16 +117,15 @@ body {
 .info__list {
    display: flex;
    
-   margin-top: 85px;
+   margin-top: 5.313rem;
 }
 
 .info__list img {
-   /* max-width: 720px; */
+   max-width: 45rem;
 }
 
 .list__text {
-   margin-bottom: 50px;
-   margin: 60px 0 0 6.875rem;
+   margin: 3.75rem 0 0 6.875rem;
 }
 
 .list__text--h3 {
@@ -332,3 +331,6 @@ body {
 .instagram svg:hover path{
    fill: var(--primary-Strong-Cyan);
 }
+
+/* ------ Media ------ */
+@media (max-width: )
