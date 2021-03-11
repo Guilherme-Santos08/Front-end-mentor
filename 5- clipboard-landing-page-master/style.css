@@ -68,8 +68,8 @@ body {
    
    border-radius: 50px;
 
-   padding: 16px 34px;
-   margin-right: 20px;
+   padding: 1rem 2.125rem;
+   margin-right: 1.25rem;
 
    opacity: 1;
    transition: all .2s ease-in-out;
