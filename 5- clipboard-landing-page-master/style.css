@@ -212,11 +212,8 @@ body {
    margin-top: 80px;
 }
 
-.card{
-   margin-right: 1.875rem;
-}
-.card:last-child{
-   margin-right: 0;
+.demo__cards  .card + .card {
+   margin-left: 1.875rem;
 }
 
 .card__h3 {
@@ -246,12 +243,16 @@ body {
    margin-top: 10.625rem;
 }
 
-.compay__card {
+.demo__company .compay__card  + .compay__card  {
+   margin-left: 5.625rem;
+}
+
+/* .compay__card {
    margin-right: 5.625rem;
 }
 .compay__card:last-child {
    margin-right: 0;
-}
+} */
 
 /* ------ supercharge__clipboard_download ------ */
 .clipboard__download{
