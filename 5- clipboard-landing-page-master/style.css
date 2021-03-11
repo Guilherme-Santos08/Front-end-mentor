@@ -440,3 +440,10 @@ body {
    max-width: 320px;
  }
 }
+
+@media (max-width: 375px) {
+   body {
+      background-image: url(images/bg-header-mobile.png);
+      background-repeat: no-repeat;
+   }
+}
