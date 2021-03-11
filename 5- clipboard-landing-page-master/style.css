@@ -279,9 +279,44 @@ body {
 /* ------ Footer ------ */
 .footer {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-around ;
    align-items: center;
+
+   height: 150px;
+   padding: 0 50px;
 
    background-color: #F5F6F8;
    margin-top: 170px;
+}
+
+.footer img {
+   max-width: 50px;
+}
+
+.footer__list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.list {
+   margin-right: 80px;
+}
+.list:last-child {
+   margin-right: 0;
+}
+
+.list li {
+   list-style: none;
+   line-height: 2;
+}
+
+.list li a {
+   font-size: 1rem;
+   color: var(--neutral-Dark-Grayish-Blue);
+   text-decoration: none;
+   transition: all .1s ease-in-out;
+}
+
+.list li a:hover {
+   color: var(--primary-Strong-Cyan);
 }
