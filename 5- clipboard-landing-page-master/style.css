@@ -239,5 +239,16 @@ body {
 .demo__company {
    display: flex;
    justify-content: center;
+   align-items: center;
    flex-wrap: wrap;
+
+   text-align: center;
+   margin-top: 170px;
+}
+
+.compay__card {
+   margin-right: 90px;
+}
+.compay__card:last-child {
+   margin-right: 0;
 }
