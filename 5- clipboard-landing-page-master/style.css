@@ -320,3 +320,24 @@ body {
 .list li a:hover {
    color: var(--primary-Strong-Cyan);
 }
+
+/* ------ social-midia ------ */
+.social-midia a {
+   text-decoration: none;
+   margin-right: 14px;
+}
+.social-midia:last-child {
+   margin-right: 0;
+}
+
+.facebook svg:hover path{
+   fill: var(--primary-Strong-Cyan);
+}
+
+.twitter svg:hover path{
+   fill: var(--primary-Strong-Cyan);
+}
+
+.instagram svg:hover path{
+   fill: var(--primary-Strong-Cyan);
+}
