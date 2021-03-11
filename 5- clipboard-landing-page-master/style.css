@@ -1,390 +1,442 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-   --primary-Strong-Cyan: hsl(171, 66%, 44%);
-   --primary-Light-Blue: hsl(233, 100%, 69%);
+  --primary-Strong-Cyan: hsl(171, 66%, 44%);
+  --primary-Light-Blue: hsl(233, 100%, 69%);
 
-   --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
-   --neutral-Grayish-Blue: hsl(201, 11%, 66%);
+  --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --neutral-Grayish-Blue: hsl(201, 11%, 66%);
 }
 
 body {
-   font-size: 16px;
-   font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  font-family: "Bai Jamjuree", sans-serif;
 
-   background-image: url(images/bg-header-desktop.png);
-   background-repeat: no-repeat;
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
 }
 
 .main {
-   margin: 0 15px;
+  margin: 0 15px;
 }
-
 
 /* ------ Header ------*/
 .header {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-   text-align: center;
-   margin: 7.938rem 0 11.25rem;
+  text-align: center;
+  margin: 7.938rem 0 11.25rem;
 }
 
 .text__downloads img {
-   max-width: 115px;
+  max-width: 115px;
 }
 
 .desc {
-   margin-top: 3.125rem;
+  margin-top: 3.125rem;
 }
-.desc h1{
-   font-size: 2.7rem;
-   color: var(--neutral-Dark-Grayish-Blue);
+.desc h1 {
+  font-size: 2.7rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 .desc p {
-   font-size: 1.2rem;
-   line-height: 1.6;
-   color: var(--neutral-Grayish-Blue);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--neutral-Grayish-Blue);
 
-   max-width: 700px;
-   margin-top: 0.938rem;
+  max-width: 700px;
+  margin-top: 0.938rem;
 }
 
 /* ------ Header__Button ------*/
 .button__downloads {
-   margin-top: 3.625rem;
+  margin-top: 3.625rem;
 }
 
 .btn__download {
-   font-size: 1.1rem;
-   font-weight: 600;
-   color: white;
-   text-decoration: none;
-   
-   border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
 
-   padding: 1rem 2.125rem;
-   margin-right: 1.25rem;
+  border-radius: 50px;
 
-   opacity: 1;
-   transition: all .2s ease-in-out;
+  padding: 1rem 2.125rem;
+
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
 }
-.btn__download:last-child{
-   margin-right: 0;
+
+.button__downloads a + a{
+   margin-left: 1.25rem;
 }
+
 .btn__download:hover {
-   opacity: .8;
+  opacity: 0.8;
 }
 
 .btn1 {
-   background-color: var(--primary-Strong-Cyan);
-   border-bottom: 3px solid rgba(26, 124, 109, 0.31);
+  background-color: var(--primary-Strong-Cyan);
+  border-bottom: 3px solid rgba(26, 124, 109, 0.31);
 }
 
 .btn2 {
-   background-color: var(--primary-Light-Blue);
-   border-bottom: 3px solid 	#5767e4;
+  background-color: var(--primary-Light-Blue);
+  border-bottom: 3px solid #5767e4;
 }
 
 /* ------ info ------ */
 .info__text {
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info__text--h2 {
-   font-size: 2.2rem;
-   color: var(--neutral-Dark-Grayish-Blue);
+  font-size: 2.2rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .info__text--p {
-   font-size: 1.1rem;
-   line-height: 1.6;
-   color: var(--neutral-Grayish-Blue);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--neutral-Grayish-Blue);
 
-   max-width: 670px;
-   margin-top: 0.938rem;
+  max-width: 670px;
+  margin-top: 0.938rem;
 }
 
 /* ------ info__list ------ */
 .info__list {
-   display: flex;
-   
-   margin-top: 5.313rem;
+  display: flex;
+
+  margin-top: 5.313rem;
 }
 
 .info__list img {
-   max-width: 60%;
+  max-width: 60%;
 }
 
 .list__text {
-   margin: 3.75rem 0 0 6.875rem;
+  margin: 3.75rem 0 0 6.875rem;
 }
 
 .list__text--h3 {
-   font-size: 1.4rem;
-   color: var(--neutral-Dark-Grayish-Blue);
+  font-size: 1.4rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .list__text--p {
-   font-size: 1rem;
-   line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.8;
 
-   margin-top: 5px;
-   max-width: 334px;
+  margin-top: 5px;
+  max-width: 334px;
 
-   color: var(--neutral-Grayish-Blue);
+  color: var(--neutral-Grayish-Blue);
 }
 
 /* ------ Acess------ */
 .acess {
-   margin: 7.938rem 0 3.938rem;
+  margin: 7.938rem 0 3.938rem;
 }
 
 .how__acess {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-   text-align: center;
+  text-align: center;
 }
 
 .how__acess--h2 {
-   font-size: 2.2rem;
-   color: var(--neutral-Dark-Grayish-Blue)
+  font-size: 2.2rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .how__acess--p {
-   font-size: 1.1rem;
-   line-height: 1.8;
+  font-size: 1.1rem;
+  line-height: 1.8;
 
-   margin-top: 1.375rem;
-   max-width: 40.625rem;
+  margin-top: 1.375rem;
+  max-width: 40.625rem;
 
-   color: var(--neutral-Grayish-Blue);
+  color: var(--neutral-Grayish-Blue);
 }
 
 .how__acess img {
-   margin-top: 6.875rem;
-   max-width: 70%;
+  margin-top: 6.875rem;
+  max-width: 70%;
 }
 
 /* ------ supercharge------ */
 .supercharge {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-   text-align: center;
+  text-align: center;
 }
 
 .demo__text--h2 {
-   font-size: 2.2rem;
-   color: var(--neutral-Dark-Grayish-Blue)
+  font-size: 2.2rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .demo__text--p {
-   font-size: 1.1rem;
-   color: var(--neutral-Grayish-Blue);
+  font-size: 1.1rem;
+  color: var(--neutral-Grayish-Blue);
 
-   margin-top: 1.375rem;
+  margin-top: 1.375rem;
 }
 
 /* ------ supercharge__demo_cards------ */
 .demo__cards {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
-   margin-top: 80px;
+  margin-top: 80px;
 }
 
-.demo__cards  .card + .card {
-   margin-left: 1.875rem;
+.demo__cards .card + .card {
+  margin-left: 1.875rem;
 }
 
 .card__h3 {
-   font-size: 1.5rem;
+  font-size: 1.5rem;
 
-   margin-top: 36px;
-   color: var(--neutral-Dark-Grayish-Blue)
+  margin-top: 36px;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .card__p {
-   font-size: 1rem;
-   color: var(--neutral-Grayish-Blue);
-   line-height: 1.7;
+  font-size: 1rem;
+  color: var(--neutral-Grayish-Blue);
+  line-height: 1.7;
 
-   margin-top: 0.875rem;
-   max-width: 21.5rem;
+  margin-top: 0.875rem;
+  max-width: 21.5rem;
 }
 
 /* ------ supercharge__demo_company ------ */
 .demo__company {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
-   text-align: center;
-   margin-top: 10.625rem;
+  text-align: center;
+  margin-top: 10.625rem;
 }
 
-.demo__company .compay__card  + .compay__card  {
-   margin-left: 5.625rem;
+.demo__company .compay__card + .compay__card {
+  margin-left: 5.625rem;
 }
 
 /* ------ supercharge__clipboard_download ------ */
-.clipboard__download{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   text-align: center;
+.clipboard__download {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 
-   margin-top: 9.375rem;
+  margin-top: 9.375rem;
 }
 
 .clipboard__text--h2 {
-   font-size: 2.2rem;
-   color: var(--neutral-Dark-Grayish-Blue)
+  font-size: 2.2rem;
+  color: var(--neutral-Dark-Grayish-Blue);
 }
 
 .clipboard__text--p {
-   font-size: 1.1rem;
-   color: var(--neutral-Grayish-Blue);
+  font-size: 1.1rem;
+  color: var(--neutral-Grayish-Blue);
 
-   margin-top: 1.375rem;
-   max-width: 41.063rem;
+  margin-top: 1.375rem;
+  max-width: 41.063rem;
 }
 
 /* ------ Footer ------ */
 .footer {
-   display: flex;
-   justify-content: space-around ;
-   align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-   height: 150px;
-   /* padding: 0 50px; */
+  height: 150px;
+  /* padding: 0 50px; */
 
-   background-color: #F5F6F8;
-   margin-top: 10.625rem;
+  background-color: #f5f6f8;
+  margin-top: 10.625rem;
 }
 
 .footer img {
-   max-width: 50px;
+  max-width: 50px;
 }
 
 .footer__list {
-   display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .list {
-   margin-right: 5rem;
+  margin-right: 5rem;
 }
 .list:last-child {
-   margin-right: 0;
+  margin-right: 0;
 }
 
 .list li {
-   list-style: none;
-   line-height: 2;
+  list-style: none;
+  line-height: 2;
 }
 
 .list li a {
-   font-size: 1rem;
-   color: var(--neutral-Dark-Grayish-Blue);
-   text-decoration: none;
-   transition: all .1s ease-in-out;
+  font-size: 1rem;
+  color: var(--neutral-Dark-Grayish-Blue);
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
 }
 
 .list li a:hover {
-   color: var(--primary-Strong-Cyan);
+  color: var(--primary-Strong-Cyan);
 }
 
 /* ------ social-midia ------ */
 .social-midia a {
-   text-decoration: none;
-   margin-right: 14px;
+  text-decoration: none;
+  margin-right: 14px;
 }
 .social-midia:last-child {
-   margin-right: 0;
+  margin-right: 0;
 }
 
-.facebook svg:hover path{
-   fill: var(--primary-Strong-Cyan);
+.facebook svg:hover path {
+  fill: var(--primary-Strong-Cyan);
 }
 
-.twitter svg:hover path{
-   fill: var(--primary-Strong-Cyan);
+.twitter svg:hover path {
+  fill: var(--primary-Strong-Cyan);
 }
 
-.instagram svg:hover path{
-   fill: var(--primary-Strong-Cyan);
+.instagram svg:hover path {
+  fill: var(--primary-Strong-Cyan);
 }
 
 /* ------ Media ------ */
 @media (max-width: 1114px) {
-   .compay__card:last-child  {
-      margin-top: 2.5rem;
-   }
+  .compay__card:last-child {
+    margin-top: 2.5rem;
+  }
 }
 
 @media (max-width: 950px) {
-   .info__list {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-   }
-   
-   .info__list img {
-      max-width: 26.25rem;
-   }
+  .info__list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
 
-   .list__text {
-      margin-left: 0;
-   }
+  .info__list img {
+    max-width: 26.25rem;
+  }
+
+  .list__text {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 899px) {
-   .compay__card:nth-child(4)  {
-      margin-top: 2.5rem;
-   }
+  .compay__card:nth-child(4) {
+    margin-top: 2.5rem;
+  }
 }
 
 @media (max-width: 747px) {
-   .demo__cards {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-   }
-   .demo__cards .card + .card {
-      margin-left: 0;
-      margin-top: 30px;
+  .demo__cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .demo__cards .card + .card {
+    margin-left: 0;
+    margin-top: 30px;
   }
 }
 
 @media (max-width: 674px) {
-   .demo__company {
-      flex-direction: column;
-      margin-top: 5.625rem;
-   }
-   .compay__card{
-      align-items: center;
-      text-align: center;
-   }
-   .demo__company .compay__card + .compay__card {
-      margin: 0;
-      margin-top: 4.063rem;
+  .demo__company {
+    flex-direction: column;
+    margin-top: 5.625rem;
   }
+  .compay__card {
+    align-items: center;
+    text-align: center;
+  }
+  .demo__company .compay__card + .compay__card {
+    margin: 0;
+    margin-top: 4.063rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+  .footer__list {
+    margin-top: 1.875rem;
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .list {
+    margin-right: 0;
+  }
+  
+  .social-midia {
+     margin-top: 1.875rem;
+     align-items: center;
+  }
+
+  .social-midia a {
+   margin-right: 0;
+   }
+
+  .social-midia a + a {
+   margin-left: 34px;
+   }
+}
+
+@media (max-width: 486px) {
+   .header {
+      margin-bottom: 7.938rem;
+   }
+   
+   .button__downloads {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .button__downloads a + a {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+  .info__list img {
+   max-width: 320px;
+ }
+ .how__acess img {
+   max-width: 320px;
+ }
 }
