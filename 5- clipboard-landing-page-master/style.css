@@ -121,7 +121,7 @@ body {
 }
 
 .info__list img {
-   width: 50%;
+   /* max-width: 720px; */
 }
 
 .list__text {
