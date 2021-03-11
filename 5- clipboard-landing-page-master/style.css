@@ -243,11 +243,11 @@ body {
    flex-wrap: wrap;
 
    text-align: center;
-   margin-top: 170px;
+   margin-top: 10.625rem;
 }
 
 .compay__card {
-   margin-right: 90px;
+   margin-right: 5.625rem;
 }
 .compay__card:last-child {
    margin-right: 0;
