@@ -146,3 +146,37 @@ body {
 
    color: var(--neutral-Grayish-Blue);
 }
+
+/* ------ Acess------ */
+.acess {
+   margin: 7.938rem 0 7.938rem;
+}
+
+.how__acess {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   text-align: center;
+}
+
+.how__acess--h2 {
+   font-size: 2.2rem;
+   color: var(--neutral-Dark-Grayish-Blue)
+}
+
+.how__acess--p {
+   font-size: 1.1rem;
+   line-height: 1.8;
+
+   margin-top: 1.375rem;
+   max-width: 40.625rem;
+
+   color: var(--neutral-Grayish-Blue);
+}
+
+.how__acess img {
+   margin-top: 6.875rem;
+   max-width: 70%;
+}
