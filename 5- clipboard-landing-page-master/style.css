@@ -252,3 +252,26 @@ body {
 .compay__card:last-child {
    margin-right: 0;
 }
+
+/* ------ supercharge__clipboard_download ------ */
+.clipboard__download{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+
+   margin-top: 9.375rem;
+}
+
+.clipboard__text--h2 {
+   font-size: 2.2rem;
+   color: var(--neutral-Dark-Grayish-Blue)
+}
+
+.clipboard__text--p {
+   font-size: 1.1rem;
+   color: var(--neutral-Grayish-Blue);
+
+   margin-top: 1.375rem;
+   max-width: 41.063rem;
+}
