@@ -149,7 +149,7 @@ body {
 
 /* ------ Acess------ */
 .acess {
-   margin: 7.938rem 0 7.938rem;
+   margin: 7.938rem 0 3.938rem;
 }
 
 .how__acess {
@@ -179,4 +179,65 @@ body {
 .how__acess img {
    margin-top: 6.875rem;
    max-width: 70%;
+}
+
+/* ------ supercharge------ */
+.supercharge {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   text-align: center;
+}
+
+.demo__text--h2 {
+   font-size: 2.2rem;
+   color: var(--neutral-Dark-Grayish-Blue)
+}
+
+.demo__text--p {
+   font-size: 1.1rem;
+   color: var(--neutral-Grayish-Blue);
+
+   margin-top: 1.375rem;
+}
+
+/* ------ supercharge__demo_cards------ */
+.demo__cards {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   margin-top: 80px;
+}
+
+.card{
+   margin-right: 1.875rem;
+}
+.card:last-child{
+   margin-right: 0;
+}
+
+.card__h3 {
+   font-size: 1.5rem;
+
+   margin-top: 36px;
+   color: var(--neutral-Dark-Grayish-Blue)
+}
+
+.card__p {
+   font-size: 1rem;
+   color: var(--neutral-Grayish-Blue);
+   line-height: 1.7;
+
+   margin-top: 0.875rem;
+   max-width: 21.5rem;
+}
+
+/* ------ supercharge__demo_company ------ */
+.demo__company {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
 }
