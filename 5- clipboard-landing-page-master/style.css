@@ -275,3 +275,13 @@ body {
    margin-top: 1.375rem;
    max-width: 41.063rem;
 }
+
+/* ------ Footer ------ */
+.footer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: #F5F6F8;
+   margin-top: 170px;
+}
