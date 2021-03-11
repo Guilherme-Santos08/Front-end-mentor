@@ -121,7 +121,7 @@ body {
 }
 
 .info__list img {
-   max-width: 45rem;
+   max-width: 60%;
 }
 
 .list__text {
@@ -273,10 +273,10 @@ body {
    align-items: center;
 
    height: 150px;
-   padding: 0 50px;
+   /* padding: 0 50px; */
 
    background-color: #F5F6F8;
-   margin-top: 170px;
+   margin-top: 10.625rem;
 }
 
 .footer img {
@@ -289,7 +289,7 @@ body {
 }
 
 .list {
-   margin-right: 80px;
+   margin-right: 5rem;
 }
 .list:last-child {
    margin-right: 0;
@@ -333,4 +333,58 @@ body {
 }
 
 /* ------ Media ------ */
-@media (max-width: )
+@media (max-width: 1114px) {
+   .compay__card:last-child  {
+      margin-top: 2.5rem;
+   }
+}
+
+@media (max-width: 950px) {
+   .info__list {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+   }
+   
+   .info__list img {
+      max-width: 26.25rem;
+   }
+
+   .list__text {
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 899px) {
+   .compay__card:nth-child(4)  {
+      margin-top: 2.5rem;
+   }
+}
+
+@media (max-width: 747px) {
+   .demo__cards {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   .demo__cards .card + .card {
+      margin-left: 0;
+      margin-top: 30px;
+  }
+}
+
+@media (max-width: 674px) {
+   .demo__company {
+      flex-direction: column;
+      margin-top: 5.625rem;
+   }
+   .compay__card{
+      align-items: center;
+      text-align: center;
+   }
+   .demo__company .compay__card + .compay__card {
+      margin: 0;
+      margin-top: 4.063rem;
+  }
+}
