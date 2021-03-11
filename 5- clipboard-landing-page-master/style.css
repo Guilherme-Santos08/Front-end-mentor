@@ -92,9 +92,6 @@ body {
 }
 
 /* ------ info ------ */
-.info {
-}
-
 .info__text {
    text-align: center;
    display: flex;
@@ -246,13 +243,6 @@ body {
 .demo__company .compay__card  + .compay__card  {
    margin-left: 5.625rem;
 }
-
-/* .compay__card {
-   margin-right: 5.625rem;
-}
-.compay__card:last-child {
-   margin-right: 0;
-} */
 
 /* ------ supercharge__clipboard_download ------ */
 .clipboard__download{
