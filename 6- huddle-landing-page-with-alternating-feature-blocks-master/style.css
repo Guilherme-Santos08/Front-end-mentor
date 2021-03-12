@@ -12,6 +12,11 @@
    --neutral-Grayish-Blue: hsl(208, 11%, 55%);
 }
 
+body {
+   font-size: 16px;
+   font-family: "Open Sans",sans-serif;
+}
+
 .social__media svg {
    max-width: 5px;
 }
