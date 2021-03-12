@@ -64,6 +64,23 @@ body {
    max-width: 88%;
 }
 
+.content__text--a {
+   margin-top: 50px;
+}
+
+.content__text a {
+   font-size: 0.813rem;
+   font-weight: bold;
+   text-decoration: none;
+
+   color: white;
+   
+   padding: 1rem 4.688rem;
+   border-radius: 50px;
+
+   background-color: var(--primary-Pink);
+}
+
 .huddle__content  img {
    max-width: 54.4%;
 }
