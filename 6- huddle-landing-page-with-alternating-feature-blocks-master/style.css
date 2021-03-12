@@ -24,9 +24,28 @@ body {
    background-size: center;
    background-color: var(--neutral-Very-Pale-Cyan);
 
-   padding: 38px 78px;
+   padding: 55px 78px;
 }
 
+.huddle__header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.huddle__header img {
+   max-width: 180px;
+}
+
+.huddle__content {
+   display: flex;
+   align-items: center;
+   margin-top: 78px;
+}
+
+.huddle__content  img {
+   max-width: 660px;
+}
 
 .social__media svg {
    max-width: 5px;
