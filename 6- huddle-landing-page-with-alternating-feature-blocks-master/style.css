@@ -4,6 +4,14 @@
    box-sizing: border-box;
 }
 
+:root {
+   --primary-Pink: hsl(322, 100%, 66%);
+
+   --neutral-Very-Pale-Cyan: hsl(193, 100%, 96%);
+   --neutral-Very-Dark-Cyan: hsl(192, 100%, 9%);
+   --neutral-Grayish-Blue: hsl(208, 11%, 55%);
+}
+
 .social__media svg {
    max-width: 5px;
 }
