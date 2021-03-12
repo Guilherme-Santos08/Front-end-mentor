@@ -50,6 +50,7 @@ body {
 }
 
 .huddle__header a {
+   font-size: 0.9rem;
    font-weight: bold ;
    text-decoration: none;
    color: var(--neutral-Very-Dark-Cyan);
