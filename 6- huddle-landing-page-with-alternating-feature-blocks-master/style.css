@@ -51,15 +51,20 @@ body {
 
 .huddle__header a {
    font-size: 0.9rem;
+   color: var(--neutral-Very-Dark-Cyan);
    font-weight: bold ;
    text-decoration: none;
-   color: var(--neutral-Very-Dark-Cyan);
 
    padding: 13px 62px;
    border-radius: 50px;
    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.05);
 
    background-color: white;
+   transition: all .1s ease-in-out;
+}
+
+.huddle__header a:hover {
+   color: var(--neutral-Grayish-Blue);
 }
 
 /* ------ .huddle__content ------ */
@@ -90,8 +95,15 @@ body {
    
    padding: 1rem 4.688rem;
    border-radius: 50px;
+   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.05);
 
    background-color: var(--primary-Pink);
+   transition: all .2s ease-in-out;
+   opacity: 1;
+}
+
+.content__text a:hover {
+   opacity: .7;
 }
 
 .huddle__content  img {
