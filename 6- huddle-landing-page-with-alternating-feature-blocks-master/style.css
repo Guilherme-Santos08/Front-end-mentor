@@ -110,10 +110,6 @@ body {
    max-width: 52%;
 }
 
-.social__media svg {
-   max-width: 5px;
-}
-
 /* ------ cards ------ */
 .cards {
    margin-top: 5rem;
@@ -151,5 +147,10 @@ body {
 .card__header--p {
    font-style: 1rem;
    color: var(--neutral-Grayish-Blue);
-   max-width: 80%;
+   max-width: 30.313rem;
+   margin-top: 0.625rem;
+}
+
+.social__media svg {
+   max-width: 5px;
 }
