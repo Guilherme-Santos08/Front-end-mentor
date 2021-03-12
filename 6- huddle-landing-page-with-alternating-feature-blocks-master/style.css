@@ -116,13 +116,40 @@ body {
 
 /* ------ cards ------ */
 .cards {
-   margin-top: 80px;
+   margin-top: 5rem;
+}
+
+.card {
+   margin: 0 5.125rem;
+   box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.07);
+   border-radius: 8px;
+   background-color: white;
+}
+.card + .card{
+   margin-top: 38px;
 }
 
 .card__flex {
    display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   padding: 50px 28px 50px 120px;
 }
 
 .card__flex img {
-   max-width: 50px;
+   max-width: 40%;
+}
+
+/* ------ card__header ------ */
+.card__header--h2 {
+   font-size: 1.8rem;
+   font-family: "Poppins",sans-serif;
+   color: var(--neutral-Very-Dark-Cyan);
+}
+
+.card__header--p {
+   font-style: 1rem;
+   color: var(--neutral-Grayish-Blue);
+   max-width: 80%;
 }
