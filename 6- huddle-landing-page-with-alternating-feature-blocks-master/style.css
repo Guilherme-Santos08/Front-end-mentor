@@ -112,7 +112,7 @@ body {
 
 /* ------ cards ------ */
 .cards {
-   margin-top: 5rem;
+   margin-top: 10rem;
 }
 
 .card {
@@ -122,7 +122,7 @@ body {
    background-color: white;
 }
 .card + .card{
-   margin-top: 38px;
+   margin-top: 2.375rem;
 }
 
 .card__flex {
@@ -130,7 +130,7 @@ body {
    align-items: center;
    justify-content: space-between;
 
-   padding: 50px 28px 50px 120px;
+   padding: 3.125rem 1.75rem 3.125rem 7.5rem;
 }
 
 .card__flex img {
