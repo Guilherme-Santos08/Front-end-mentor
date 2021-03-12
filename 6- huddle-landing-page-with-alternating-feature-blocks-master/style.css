@@ -49,6 +49,18 @@ body {
    max-width: 180px;
 }
 
+.huddle__header a {
+   font-weight: bold ;
+   text-decoration: none;
+   color: var(--neutral-Very-Dark-Cyan);
+
+   padding: 13px 62px;
+   border-radius: 50px;
+   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.05);
+
+   background-color: white;
+}
+
 /* ------ .huddle__content ------ */
 .huddle__content {
    display: flex;
