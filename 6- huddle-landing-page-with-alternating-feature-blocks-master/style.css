@@ -17,6 +17,17 @@ body {
    font-family: "Open Sans",sans-serif;
 }
 
+/* ------ huddle ------ */
+.huddle {
+   background-image: url(images/bg-hero-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: center;
+   background-color: var(--neutral-Very-Pale-Cyan);
+
+   padding: 38px 78px;
+}
+
+
 .social__media svg {
    max-width: 5px;
 }
