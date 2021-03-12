@@ -79,7 +79,7 @@ body {
 
 .content__text--p {
    margin-top: 30px;
-   max-width: 88%;
+   max-width: 84%;
 }
 
 .content__text--a {
@@ -112,4 +112,17 @@ body {
 
 .social__media svg {
    max-width: 5px;
+}
+
+/* ------ cards ------ */
+.cards {
+   margin-top: 80px;
+}
+
+.card__flex {
+   display: flex;
+}
+
+.card__flex img {
+   max-width: 50px;
 }
