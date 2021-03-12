@@ -4,6 +4,18 @@
    box-sizing: border-box;
 }
 
+h1 {
+   font-size: 2.5rem;
+   line-height: 1.5;
+   color: var(--neutral-Very-Dark-Cyan);
+   max-width: 431px;
+}
+
+p{
+   font-size: 1.1rem;
+   color: var(--neutral-Very-Dark-Cyan);
+}
+
 :root {
    --primary-Pink: hsl(322, 100%, 66%);
 
@@ -24,7 +36,7 @@ body {
    background-size: center;
    background-color: var(--neutral-Very-Pale-Cyan);
 
-   padding: 55px 78px;
+   padding: 3.438rem 4.875rem;
 }
 
 .huddle__header {
@@ -37,14 +49,23 @@ body {
    max-width: 180px;
 }
 
+/* ------ .huddle__content ------ */
 .huddle__content {
    display: flex;
-   align-items: center;
-   margin-top: 78px;
+   margin-top: 4.875rem;
+}
+
+.content__text {
+   margin-top: 5.625rem;
+}
+
+.content__text--p {
+   margin-top: 30px;
+   max-width: 88%;
 }
 
 .huddle__content  img {
-   max-width: 660px;
+   max-width: 54.4%;
 }
 
 .social__media svg {
